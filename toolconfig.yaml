@@ -1,0 +1,10 @@
+name: 'Get Web URL Embeddings'
+unique_id: 'get_url_embeddings'
+description: 'Fetches content from a specified URL and adds it to the embedding store'
+inputs:
+  url:
+    description: 'The URL to fetch content from'
+    required: true
+outputs:
+  content:
+    description: 'The fetched content from the URL'
